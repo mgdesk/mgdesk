@@ -36,3 +36,11 @@ button.social-btn {
     opacity: 1;
     border-radius: 2px;
 }
+.mdl-mini-footer--social-btn .mdl-mini-footer__social-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
