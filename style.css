@@ -24,3 +24,15 @@
 .social-btn__twitter {
     background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_white_18dp.png');
 }
+button.social-btn {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin:  ;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 2px;
+}
