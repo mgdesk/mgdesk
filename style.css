@@ -1,23 +1,48 @@
-.demo-grid.mdl-grid {
-  border:0px solid ; 
-  height: auto; 
-  padding:5px;
-  width: auto;
-  background:#dddddd;
- }
-.demo-mdl.mdl-card {
-  border:1px solid ; 
-  margin:5px;
-  width:auto;
-  height:320px;
- }
-.demo-content {
+.mdl-cell {font-family:roboto;
+  box-sizing: border-box;
   border-radius: 2px;
-  padding: 80px 56px;
+  background-color: #FFFFFF;
+  height: 320px;
+  padding-left: 56px;
+  padding-top: 60px;
+  color: ;
+}
+demo-content {
+  .border-radius: 2px;
+  .padding: 80px 56px;
   margin-bottom: 20px;
   margin-top: 5px;
-  height:220px;
+  .height:220px;
 }
+.mdl-layout__content {
+ padding:px;
+ background:#dddddd;
+ }
+
+demo-mdl.mdl-card {
+  border:1px solid ; 
+  margin:5px;
+  .width:auto;
+  height:320px;
+ }
+@media all and (min-width: 280px) {
+#c1 {font-size: 1.8em;}
+#c2 {font-size: 1.0em;}
+  }
+@media all and (min-width: 480px) {
+.mdl-grid {font-size: ;}
+.mdl-cell {padding:;}
+#c1 {font-size: 2em;}
+#c2 {font-size: 1.1em;}
+  }
+@media all and (min-width: 600px) {
+#c1 {font-size: 2.5em;}
+#c2 {font-size: 1.3em;}
+  }
+@media all and (min-width: 840px) {
+#c1 {font-size: 2.8em;}
+#c2 {font-size: 1.6em;}
+  }
 .mdl-layout__drawer-button {
   line-height: 2;
 }
