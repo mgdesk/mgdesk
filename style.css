@@ -33,15 +33,15 @@ demo-mdl.mdl-card {
 .mdl-grid {font-size: ;}
 .mdl-cell {padding:;}
 #c1 {font-size: 2em;}
-#c2 {font-size: 1.1em;}
+#c2 {font-size: 1.3em;}
   }
 @media all and (min-width: 600px) {
 #c1 {font-size: 2.5em;}
-#c2 {font-size: 1.3em;}
+#c2 {font-size: 1.5em;}
   }
 @media all and (min-width: 840px) {
 #c1 {font-size: 2.8em;}
-#c2 {font-size: 1.6em;}
+#c2 {font-size: 1.7em;}
   }
 .mdl-layout__drawer-button {
   line-height: 2;
