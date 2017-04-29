@@ -3,7 +3,7 @@
   border-radius: 2px;
   background-color: #FFFFFF;
   height: 320px;
-  padding-left: 56px;
+  padding-left: 26px;
   padding-top: 60px;
   color: ;
 }
@@ -32,8 +32,8 @@ demo-mdl.mdl-card {
 @media all and (min-width: 480px) {
 .mdl-grid {font-size: ;}
 .mdl-cell {padding:;}
-#c1 {font-size: 2em;}
-#c2 {font-size: 1.3em;}
+#c1 {font-size: 1.8em;}
+#c2 {font-size: 1.0em;}
   }
 @media all and (min-width: 600px) {
 #c1 {font-size: 2.5em;}
