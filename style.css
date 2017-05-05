@@ -1,29 +1,33 @@
-.mdl-cell {font-family:roboto;
-  box-sizing: border-box;
-  border-radius: 2px;
-  background-color: #FFFFFF;
-  height: 320px;
-  padding-left: 20px;
-  padding-top: 60px;
-  color: ;
+.card-content > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
 }
-demo-content {
-  .border-radius: 2px;
-  .padding: 80px 56px;
-  margin-bottom: 20px;
-  margin-top: 5px;
-  .height:220px;
+.card-content > .mdl-card__actions > .material-icons {
+  padding-right: 20px;
+}
+
+.card-contact > .mdl-card__actions,
+.card-contact > .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
+.mdl-card {font-family:roboto;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  max-height: 380px;
+  min-width:220px;
+  padding-left: px;
+  padding-top: px;
+  color: black;
+}
+.card-content {font-family:roboto;
+  background-color: #ffffff;
+  height:0px auto;
+  color: black;
 }
 .mdl-layout__content {
  padding:px;
  background:#dddddd;
- }
-
-demo-mdl.mdl-card {
-  border:1px solid ; 
-  margin:5px;
-  .width:auto;
-  height:320px;
  }
 @media all and (min-width: 280px) {
 #c1 {font-size: 1.8em;}
